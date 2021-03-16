@@ -1,0 +1,22 @@
+# options = {
+#     "exit()":lambda path,args: c.breakLoop(),
+#     "ls":lambda path,args: subprocess.call("dir",shell=True),
+#     "lol":lambda path,args: c.changePath(path + "5>"),
+#     "cls":lambda path,args: clear(),
+#     "name":"Rabin",
+#     "king":{
+#         "*":lambda path,args:print("lol"),
+#         "-l":"k",
+#         "-r":{
+#             "jack": lambda path,args: warn("lol")
+#         },
+#         "${name}": {
+#             "-l":lambda path,args:print("lol",args),
+#             "${d}":{
+#                 "g":lambda path,args:print(args["name"],args["d"])
+#             }
+#         }
+#         }
+#     }
+
+# "lol":{}
